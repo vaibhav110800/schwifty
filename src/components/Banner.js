@@ -22,7 +22,7 @@ const Banner = () => {
                     <div class="bo-sec1-right-box2 bo-sec1-right-box"></div>
                     <div class="bo-sec1-right-box3 bo-sec1-right-box">
                         <div class="bo-sec1-right-box-inner">
-                            <img className='logo' src={logo}></img>
+                            <img className='logo' src={logo} alt="banner"></img>
                         </div>
                     </div>
                 </div>
