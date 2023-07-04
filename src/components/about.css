@@ -1,0 +1,216 @@
+.pproduct-middle{
+    max-width: 1300px;
+    margin: 30px auto;
+    min-height: 80vh;
+    display: flex;
+    padding-top: 30px;
+}
+
+.pproduct-middle-left{
+    height: inherit;
+    width: 50%;
+    /* background-color: peru; */
+}
+
+.pproduct-middle-left-top{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+}
+.pproduct-middle-left-top-heading{
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #11542A;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 15px;
+}
+
+.pproduct-middle-left-top-para{
+    font-weight:500;
+    letter-spacing: 1px;
+   font-size: 12px;
+   color:#8a8889;
+   font-family: 'Open Sans', sans-serif;
+   line-height: 20px;
+   padding-bottom: 10px;
+}
+.pproduct-middle-left-top-button a{
+   font-size: 10px;
+   text-decoration: none;
+   background-color: transparent;
+   border: 2px solid #d95322;
+   color: #d95322;
+   margin-right: 10px;
+   padding: 6px 8px;
+   border-radius: 12px;
+   transition: .2s ease-in-out;
+}
+.pproduct-middle-left-top-button a:hover{
+   border: 2px solid #8a8889;
+   color: #8a8889;
+}
+
+.pproduct-middle-left-bottom{
+   height: 30%;
+   display: flex;
+}
+
+.pproduct-middle-left-bottom-box{
+   width: 33%;
+   margin: 0 2px;
+   
+}
+
+.s1{
+    background: url(../images/about/aboutb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.s2{
+    background: url(../images/about/aboutc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.s3{
+    background: url(../images/about/aboutd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+ .pproduct-middle-right{
+    height: inherit;
+    width: 50%;
+    background: url(../images/about/abouta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 1px solid white;
+}
+
+@media screen and (min-width:1000px) and (max-width:1299px){
+    .pproduct-middle{
+        width: 90%;
+        min-height: 65vh;
+    }
+    .pproduct-middle-left{
+        width: 50%;
+    }
+    .pproduct-middle-left-top{
+        width: 80%;
+        height: 70%;
+        padding-left: 5%;
+    }
+    .pproduct-middle-left-top-heading{
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .pproduct-middle-left-top-para{
+       font-size: 12px;
+       line-height: 20px;
+       padding-bottom: 10px;
+   }
+   .pproduct-middle-left-top-button a{
+       font-size: 10px;
+       margin-right: 10px;
+       padding: 6px 8px;
+   }
+    .pproduct-middle-left-bottom{
+       height: 30%;
+   }
+   .pproduct-middle-left-bottom-box{
+       width: 33%;
+       margin: 0 2px;
+   }
+    .pproduct-middle-right{
+       width: 50%;
+       border: 1px solid white;
+   }
+}
+
+@media screen and (min-width:768px) and (max-width:999px){
+    .pproduct-middle{
+        width: 90%;
+        min-height: 50vh;
+    }
+    .pproduct-middle-left{
+        width: 50%;
+    }
+    .pproduct-middle-left-top{
+        width: 90%;
+        height: 70%;
+        padding-left: 5%;
+    }
+    .pproduct-middle-left-top-heading{
+        font-size: 18px;
+        padding-bottom: 12px;
+    }
+    .pproduct-middle-left-top-para{
+       font-size: 9px;
+       line-height: 18px;
+       padding-bottom: 7px;
+   }
+   .pproduct-middle-left-top-button a{
+       font-size: 7px;
+       margin-right: 10px;
+       padding: 6px 8px;
+   }
+    .pproduct-middle-left-bottom{
+       height: 30%;
+   }
+   .pproduct-middle-left-bottom-box{
+       width: 33%;
+       margin: 0 2px;
+   }
+    .pproduct-middle-right{
+       width: 50%;
+       border: 1px solid white;
+   }
+}
+
+@media screen and (max-width:767px){
+    .pproduct-middle{
+        width: 90%;
+        min-height: 50vh;
+        flex-direction: column;
+    }
+    .pproduct-middle-left{
+        margin: 10px auto;
+        width: 95%;
+    }
+    .pproduct-middle-left-top{
+        width: 95%;
+        padding-left: 0%;
+    }
+    .pproduct-middle-left-top-heading{
+        font-size: 15px;
+        padding-bottom: 6px;
+    }
+    .pproduct-middle-left-top-para{
+       font-size: 7px;
+       line-height: 15px;
+       padding-bottom: 5px;
+   }
+   .pproduct-middle-left-top-button a{
+       font-size: 7px;
+       margin-right: 10px;
+       padding: 6px 8px;
+   }
+   
+   .pproduct-middle-left-bottom-box{
+       width: 33%;
+       height: 20vh;
+       margin: 10px 2px;
+   }
+    .pproduct-middle-right{
+       width: 95%;
+       margin: 1px auto;
+       height: 40vh;
+       border: 1px solid white;
+   }
+}

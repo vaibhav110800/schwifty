@@ -1,0 +1,403 @@
+.bo-sec3{
+    max-width: 1300px;
+    min-height: 600px;
+    margin: 70px auto;
+    display: flex;
+}
+
+.bo-sec3-left{
+    width: 500px;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background:red; */
+}
+
+.bo-sec3-left-inner{
+    width: 85%;
+}
+.bo-sec3-left-h1{
+    font-size: 30px;
+    text-align: center;
+    color: #11542A;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    padding-bottom: 10px;
+}
+.bo-sec3-left-h2{
+    font-size: 36px;
+    color: #11542A;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.bo-sec3-left-p{
+    font-size: 14px;
+    text-align: left;
+    color: #8a8889;
+    letter-spacing: 1px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-family: 'Roboto',sans-serif;
+    /* font-weight: 800; */
+    padding-bottom: 25px;
+}
+.bo-sec3-left-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #11542A;
+    cursor: pointer;
+    
+}
+.bo-sec3-left-button:hover a{
+    color: #CACFD2;
+}
+.bo-sec3-left-button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    transition: .2s ease-in-out;
+}
+
+.bo-sec3-right{
+    width: 800px;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bo-sec3-right-box1{
+    z-index: 2;
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    left: 0;
+    top: 8%;
+    background-image:linear-gradient(0deg, rgba(163, 177, 138,.3), rgba(163, 177, 138,.7)), url(../images//vision/vision.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    object-fit: cover;
+}
+.bo-sec3-right-box2{
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: #11542A;
+}
+
+@media screen and (min-width:900px) and (max-width:1199px){
+    .bo-sec3{
+        max-width: 900px;
+        min-height: 600px;
+        margin: 20px auto;
+        display: flex;
+    }
+    
+    .bo-sec3-left{
+        width: 500px;
+        min-height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background:red; */
+    }
+    
+    .bo-sec3-left-inner{
+        width: 85%;
+    }
+    .bo-sec3-left-h1{
+        font-size: 30px;
+        text-align: center;
+        color: #11542A;
+        letter-spacing: 1px;
+        font-family: 'Monserrat',sans-serif;
+        font-weight: 1000;
+        padding-bottom: 10px;
+    }
+    .bo-sec3-left-h2{
+        font-size: 25px;
+        text-align: center;
+        color: #11542A;
+        letter-spacing: 1px;
+        font-family: 'Josefin Sans',sans-serif;
+        font-weight: 800;
+        padding-bottom: 10px;
+    }
+    .bo-sec3-left-p{
+        font-size: 14px;
+        text-align: left;
+        color: #8a8889;
+        letter-spacing: 2px;
+        line-height: 20px;
+        font-family: 'Roboto',sans-serif;
+        /* font-weight: 800; */
+        padding-bottom: 25px;
+    }
+    .bo-sec3-left-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        background-color: #11542A;
+        cursor: pointer;
+        
+    }
+    .bo-sec3-left-button:hover a{
+        color: #CACFD2;
+    }
+    .bo-sec3-left-button a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: 'Roboto',sans-serif;
+        letter-spacing: 1px;
+        font-size: 17px;
+        transition: .2s ease-in-out;
+    }
+    
+    .bo-sec3-right{
+        width: 800px;
+        min-height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .bo-sec3-right-box1{
+        z-index: 2;
+        position: absolute;
+        width: 600px;
+        height: 500px;
+        left: 0;
+        top: 8%;
+        background-image:linear-gradient(0deg, rgba(163, 177, 138,.3), rgba(163, 177, 138,.7)), url(../images//vision/vision.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        object-fit: cover;
+    }
+    .bo-sec3-right-box2{
+        position: absolute;
+        width: 400px;
+        height: 100%;
+        right: 0;
+        top: 0;
+        background-color: #11542A;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:899px){
+    .bo-sec3{
+        max-width: 768px;
+        min-height: 600px;
+        margin: 20px auto;
+        display: flex;
+    }
+    
+    .bo-sec3-left{
+        width: 500px;
+        min-height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background:red; */
+    }
+    
+    .bo-sec3-left-inner{
+        width: 85%;
+    }
+    .bo-sec3-left-h1{
+        font-size: 30px;
+        text-align: center;
+        color: #11542A;
+        letter-spacing: 1px;
+        font-family: 'Monserrat',sans-serif;
+        font-weight: 1000;
+        padding-bottom: 10px;
+    }
+    .bo-sec3-left-h2{
+        font-size: 16px;
+        text-align: center;
+        color: #11542A;
+        letter-spacing: 1px;
+        font-family: 'Josefin Sans',sans-serif;
+        font-weight: 800;
+        padding-bottom: 10px;
+    }
+    .bo-sec3-left-p{
+        font-size: 14px;
+        text-align: left;
+        color: #8a8889;
+        letter-spacing: 2px;
+        line-height: 20px;
+        font-family: 'Roboto',sans-serif;
+        /* font-weight: 800; */
+        padding-bottom: 25px;
+    }
+    .bo-sec3-left-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        background-color: #11542A;
+        cursor: pointer;
+        
+    }
+    .bo-sec3-left-button:hover a{
+        color: #CACFD2;
+    }
+    .bo-sec3-left-button a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: 'Roboto',sans-serif;
+        letter-spacing: 1px;
+        font-size: 17px;
+        transition: .2s ease-in-out;
+    }
+    
+    .bo-sec3-right{
+        width: 800px;
+        min-height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .bo-sec3-right-box1{
+        z-index: 2;
+        position: absolute;
+        width: 600px;
+        height: 500px;
+        left: 0;
+        top: 8%;
+        background-image:linear-gradient(0deg, rgba(163, 177, 138,.3), rgba(163, 177, 138,.7)), url(../images//vision/vision.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        object-fit: cover;
+    }
+    .bo-sec3-right-box2{
+        position: absolute;
+        width: 400px;
+        height: 100%;
+        right: 0;
+        top: 0;
+        background-color: #11542A;
+    }
+}
+
+@media screen and (max-width:767px){
+    .bo-sec3{
+        max-width: 95%;
+        min-height: 600px;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bo-sec3-left{
+        width: 90%;
+        margin: 0 auto;
+        min-height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background:red; */
+    }
+    
+    .bo-sec3-left-inner{
+        width: 90%;
+    }
+    .bo-sec3-left-h1{
+        font-size: 20px;
+        text-align: center;
+        color: #11542A;
+        letter-spacing: 1px;
+        font-family: 'Monserrat',sans-serif;
+        font-weight: 1000;
+        padding-bottom: 10px;
+    }
+    .bo-sec3-left-h2{
+        font-size: 18px;
+        text-align: center;
+        color: #11542A;
+        letter-spacing: 1px;
+        font-family: 'Josefin Sans',sans-serif;
+        font-weight: 800;
+        padding-bottom: 10px;
+    }
+    .bo-sec3-left-p{
+        font-size: 12px;
+        text-align: left;
+        color: #8a8889;
+        letter-spacing: 2px;
+        line-height: 20px;
+        font-family: 'Roboto',sans-serif;
+        /* font-weight: 800; */
+        padding-bottom: 25px;
+    }
+    .bo-sec3-left-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        background-color: #11542A;
+        cursor: pointer;
+        
+    }
+    .bo-sec3-left-button:hover a{
+        color: #CACFD2;
+    }
+    .bo-sec3-left-button a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: 'Roboto',sans-serif;
+        letter-spacing: 1px;
+        font-size: 17px;
+        transition: .2s ease-in-out;
+    }
+    
+    .bo-sec3-right{
+        width: 100%;
+        min-height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .bo-sec3-right-box1{
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        left: 0;
+        top: 8%;
+        background-image:linear-gradient(0deg, rgba(163, 177, 138,.3), rgba(163, 177, 138,.7)), url(../images//vision/vision.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        object-fit: cover;
+    }
+    .bo-sec3-right-box2{
+        position: absolute;
+        width: 400px;
+        height: 100%;
+        right: 0;
+        top: 0;
+        background-color: #11542A;
+        display: none;
+    }
+}

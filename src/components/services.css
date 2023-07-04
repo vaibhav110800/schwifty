@@ -1,0 +1,504 @@
+.dom-sec6{
+ max-width: 1300px;
+ margin: 30px auto;
+}
+.dom-sec6-box1{
+    display: flex;
+    width: 1300px;
+    height: 300px;
+}
+.dom-sec6-box1-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: #a3b18a;
+}
+.dom-sec6-box1-left-inner{
+    width: 80%;
+}
+.dom-sec6-box1-left-h{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #e5e7e9;
+    font-size: 25px;
+    padding-bottom: 8px;
+    letter-spacing: 2px;
+}
+.dom-sec6-box1-left-p{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 5px 0;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+.dom-sec6-box1-right{
+    background: url(../images/services/servicesa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 800px;
+    height: 300px;
+}
+.dom-sec6-box2{
+    display: flex;
+    width: 1300px;
+    height: 300px;
+}
+.dom-sec6-box2-left{
+    background: url(../images/services/servicesb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 800px;
+    height: 300px;
+}
+.dom-sec6-box2-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: #588157;
+}
+.dom-sec6-box2-right-inner{
+    width: 80%;
+}
+.dom-sec6-box2-right-h{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #e5e7e9;
+    font-size: 25px;
+    padding-bottom: 8px;
+    letter-spacing: 2px;
+}
+.dom-sec6-box2-right-p{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 5px 0;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+.dom-sec6-box3{
+    display: flex;
+    width: 1300px;
+    height: 300px;
+}
+.dom-sec6-box3-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: #a3b18a;
+}
+.dom-sec6-box3-left-inner{
+    width: 80%;
+}
+.dom-sec6-box3-left-h{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #e5e7e9;
+    font-size: 25px;
+    padding-bottom: 8px;
+    letter-spacing: 2px;
+}
+.dom-sec6-box3-left-p{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 5px 0;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+.dom-sec6-box3-right{
+    background: url(../images/services/servicesc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 800px;
+    height: 300px;
+}
+
+@media screen and (min-width:900px) and (max-width:1199px){
+    .dom-sec6-box1{
+        display: flex;
+        width: 900px;
+        height: 300px;
+    }
+    .dom-sec6-box1-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        background-color: #a3b18a;
+    }
+    .dom-sec6-box1-left-inner{
+        width: 80%;
+    }
+    .dom-sec6-box1-left-h{
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #e5e7e9;
+
+        font-size: 25px;
+        padding-bottom: 8px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box1-left-p{
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        padding: 5px 0;
+        line-height: 18px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box1-right{
+        background: url(../images/services/servicesa.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: 600px;
+        height: 300px;
+    }
+    .dom-sec6-box2{
+        display: flex;
+        width: 900px;
+        height: 300px;
+    }
+    .dom-sec6-box2-left{
+        background: url(../images/services/servicesb.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: 600px;
+        height: 300px;
+    }
+    .dom-sec6-box2-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        background-color: #588157;
+    }
+    .dom-sec6-box2-right-inner{
+        width: 80%;
+    }
+    .dom-sec6-box2-right-h{
+        
+    font-weight: 600;
+    letter-spacing: 1px;
+        color: #e5e7e9;
+
+        font-size: 25px;
+        padding-bottom: 8px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box2-right-p{
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        padding: 5px 0;
+        line-height: 18px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box3{
+        display: flex;
+        width: 900px;
+        height: 300px;
+    }
+    .dom-sec6-box3-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        background-color: #a3b18a;
+    }
+    .dom-sec6-box3-left-inner{
+        width: 80%;
+    }
+    .dom-sec6-box3-left-h{
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #e5e7e9;
+
+        font-size: 25px;
+        padding-bottom: 8px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box3-left-p{
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        padding: 5px 0;
+        line-height: 18px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box3-right{
+        background: url(../images/services/servicesc.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:899px){
+    .dom-sec6-box1{
+        display: flex;
+        width: 750px;
+        height: 300px;
+    }
+    .dom-sec6-box1-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 300px;
+        background-color: #a3b18a;
+    }
+    .dom-sec6-box1-left-inner{
+        width: 80%;
+    }
+    .dom-sec6-box1-left-h{
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #e5e7e9;
+
+        font-size: 20px;
+        padding-bottom: 8px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box1-left-p{
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        padding: 5px 0;
+        line-height: 18px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box1-right{
+        background: url(../images/services/servicesa.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: 800px;
+        height: 300px;
+    }
+    .dom-sec6-box2{
+        display: flex;
+        width: 750px;
+        height: 300px;
+    }
+    .dom-sec6-box2-left{
+        background: url(../images/services/servicesb.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: 800px;
+        height: 300px;
+    }
+    .dom-sec6-box2-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 300px;
+        background-color: #588157;
+    }
+    .dom-sec6-box2-right-inner{
+        width: 80%;
+    }
+    .dom-sec6-box2-right-h{
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #e5e7e9;
+
+        font-size: 20px;
+        padding-bottom: 8px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box2-right-p{
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        padding: 5px 0;
+        line-height: 18px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box3{
+        display: flex;
+        width: 750px;
+        height: 300px;
+    }
+    .dom-sec6-box3-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 300px;
+        background-color: #a3b18a;
+    }
+    .dom-sec6-box3-left-inner{
+        width: 80%;
+    }
+    .dom-sec6-box3-left-h{
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #e5e7e9;
+
+        font-size: 20px;
+        padding-bottom: 8px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box3-left-p{
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        padding: 5px 0;
+        line-height: 18px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box3-right{
+        background: url(../images/services/servicesc.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: 800px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .dom-sec6-box1{
+        display: flex;
+        width: 350px;
+        min-height: 200px;
+    }
+    .dom-sec6-box1-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        min-height: 200px;
+        background-color: #a3b18a;
+    }
+    .dom-sec6-box1-left-inner{
+       width:90%;
+    }
+    .dom-sec6-box1-left-h{
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #e5e7e9;
+
+        font-size: 14px;
+        padding-bottom:4px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box1-left-p{
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-size:8px;
+        padding:3px 0;
+        line-height:14px;
+        letter-spacing:1px;
+    }
+    .dom-sec6-box1-right{
+        background: url(../images/services/servicesa.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: 180px;
+        min-height: 200px;
+    }
+    .dom-sec6-box2{
+        display: flex;
+        width: 350px;
+        min-height: 200px;
+    }
+    .dom-sec6-box2-left{
+        background: url(../images/services/servicesb.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: 180px;
+        min-height: 200px;
+    }
+    .dom-sec6-box2-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        min-height: 200px;
+        background-color: #588157;
+    }
+    .dom-sec6-box2-right-inner{
+       width:90%;
+    }
+    .dom-sec6-box2-right-h{
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #e5e7e9;
+
+        font-size: 14px;
+        padding-bottom:4px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box2-right-p{
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-size:8px;
+        padding:3px 0;
+        line-height:14px;
+        letter-spacing:1px;
+    }
+    .dom-sec6-box3{
+        display: flex;
+        width: 350px;
+        min-height: 200px;
+    }
+    .dom-sec6-box3-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        min-height: 200px;
+        background-color: #a3b18a;
+    }
+    .dom-sec6-box3-left-inner{
+       width:90%;
+    }
+    .dom-sec6-box3-left-h{
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #e5e7e9;
+
+        font-size: 14px;
+        padding-bottom:4px;
+        letter-spacing: 2px;
+    }
+    .dom-sec6-box3-left-p{
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-size:8px;
+        padding:3px 0;
+        line-height:14px;
+        letter-spacing:1px;
+    }
+    .dom-sec6-box3-right{
+        background: url(../images/services/servicesc.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: 180px;
+        min-height: 200px;
+    }
+}
