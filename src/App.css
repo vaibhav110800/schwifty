@@ -9,5 +9,6 @@
 */
 
 .App{
+  overflow: hidden;
   font-family: 'Montserrat', sans-serif;
 }

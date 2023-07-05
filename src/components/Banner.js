@@ -10,8 +10,8 @@ const Banner = () => {
                 {/* <div class="bo-sec1-left-p">ARCHITECTURE / CONSTRUCTION / REAL ESTATE</div>
                 <div class="bo-sec1-left-h">PREMIUM <b>REAL ESTATE </b> <br />DEVELOPERS</div> */}
 
-                <div class="bo-sec1-left-p">FERTILISERS / PESTICIDES / QUICK SERVICE</div>
-                <div class="bo-sec1-left-h">PROFESSIONAL <b>AGRICULTURE </b> <br />SUPPLIER</div>
+                <div class="bo-sec1-left-p">BIO CNG / LIQUID FERTLISERS / SOLID FERTLISERS</div>
+                <div class="bo-sec1-left-h">PROFESSIONAL <b>BIOGAS </b> <br />SUPPLIER</div>
             </div>
         </div>
 

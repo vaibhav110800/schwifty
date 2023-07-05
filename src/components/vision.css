@@ -26,6 +26,7 @@
     padding-bottom: 10px;
 }
 .bo-sec3-left-h2{
+    text-transform: uppercase;
     font-size: 36px;
     color: #11542A;
     letter-spacing: 1px;
@@ -35,13 +36,12 @@
 }
 .bo-sec3-left-p{
     font-size: 14px;
-    text-align: left;
+    text-align: justify;
     color: #8a8889;
     letter-spacing: 1px;
     letter-spacing: 2px;
     line-height: 20px;
-    font-family: 'Roboto',sans-serif;
-    /* font-weight: 800; */
+    font-weight: 500;
     padding-bottom: 25px;
 }
 .bo-sec3-left-button{
@@ -60,7 +60,6 @@
 .bo-sec3-left-button a{
     text-decoration: none;
     color: whitesmoke;
-    font-family: 'Roboto',sans-serif;
     letter-spacing: 1px;
     font-size: 17px;
     transition: .2s ease-in-out;
@@ -96,7 +95,7 @@
     background-color: #11542A;
 }
 
-@media screen and (min-width:900px) and (max-width:1199px){
+/* @media screen and (min-width:900px) and (max-width:1199px){
     .bo-sec3{
         max-width: 900px;
         min-height: 600px;
@@ -110,7 +109,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* background:red; */
     }
     
     .bo-sec3-left-inner{
@@ -121,7 +119,6 @@
         text-align: center;
         color: #11542A;
         letter-spacing: 1px;
-        font-family: 'Monserrat',sans-serif;
         font-weight: 1000;
         padding-bottom: 10px;
     }
@@ -130,7 +127,6 @@
         text-align: center;
         color: #11542A;
         letter-spacing: 1px;
-        font-family: 'Josefin Sans',sans-serif;
         font-weight: 800;
         padding-bottom: 10px;
     }
@@ -140,8 +136,6 @@
         color: #8a8889;
         letter-spacing: 2px;
         line-height: 20px;
-        font-family: 'Roboto',sans-serif;
-        /* font-weight: 800; */
         padding-bottom: 25px;
     }
     .bo-sec3-left-button{
@@ -160,7 +154,7 @@
     .bo-sec3-left-button a{
         text-decoration: none;
         color: whitesmoke;
-        font-family: 'Roboto',sans-serif;
+
         letter-spacing: 1px;
         font-size: 17px;
         transition: .2s ease-in-out;
@@ -195,7 +189,7 @@
         top: 0;
         background-color: #11542A;
     }
-}
+} */
 
 @media screen and (min-width:768px) and (max-width:899px){
     .bo-sec3{
@@ -222,7 +216,6 @@
         text-align: center;
         color: #11542A;
         letter-spacing: 1px;
-        font-family: 'Monserrat',sans-serif;
         font-weight: 1000;
         padding-bottom: 10px;
     }
@@ -231,7 +224,6 @@
         text-align: center;
         color: #11542A;
         letter-spacing: 1px;
-        font-family: 'Josefin Sans',sans-serif;
         font-weight: 800;
         padding-bottom: 10px;
     }
@@ -241,7 +233,7 @@
         color: #8a8889;
         letter-spacing: 2px;
         line-height: 20px;
-        font-family: 'Roboto',sans-serif;
+
         /* font-weight: 800; */
         padding-bottom: 25px;
     }
@@ -261,7 +253,7 @@
     .bo-sec3-left-button a{
         text-decoration: none;
         color: whitesmoke;
-        font-family: 'Roboto',sans-serif;
+
         letter-spacing: 1px;
         font-size: 17px;
         transition: .2s ease-in-out;
@@ -302,7 +294,7 @@
     .bo-sec3{
         max-width: 95%;
         min-height: 600px;
-        margin: 20px auto;
+        margin: 20px auto 50px;
         display: flex;
         flex-direction: column;
     }
@@ -318,14 +310,13 @@
     }
     
     .bo-sec3-left-inner{
-        width: 90%;
+        width: 100%;
     }
     .bo-sec3-left-h1{
         font-size: 20px;
         text-align: center;
         color: #11542A;
         letter-spacing: 1px;
-        font-family: 'Monserrat',sans-serif;
         font-weight: 1000;
         padding-bottom: 10px;
     }
@@ -334,17 +325,15 @@
         text-align: center;
         color: #11542A;
         letter-spacing: 1px;
-        font-family: 'Josefin Sans',sans-serif;
         font-weight: 800;
         padding-bottom: 10px;
     }
     .bo-sec3-left-p{
         font-size: 12px;
-        text-align: left;
         color: #8a8889;
         letter-spacing: 2px;
         line-height: 20px;
-        font-family: 'Roboto',sans-serif;
+
         /* font-weight: 800; */
         padding-bottom: 25px;
     }
@@ -364,7 +353,7 @@
     .bo-sec3-left-button a{
         text-decoration: none;
         color: whitesmoke;
-        font-family: 'Roboto',sans-serif;
+
         letter-spacing: 1px;
         font-size: 17px;
         transition: .2s ease-in-out;

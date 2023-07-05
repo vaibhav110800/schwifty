@@ -1,20 +1,21 @@
 .pproduct-middle{
     max-width: 1300px;
     margin: 30px auto;
+    padding: 30px 0;
     min-height: 80vh;
     display: flex;
     padding-top: 30px;
 }
 
 .pproduct-middle-left{
-    height: inherit;
+    min-height: inherit;
     width: 50%;
     /* background-color: peru; */
 }
 
 .pproduct-middle-left-top{
     width: 80%;
-    height: 70%;
+    min-height: 70%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -22,21 +23,19 @@
 }
 .pproduct-middle-left-top-heading{
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 1px;
     color: #11542A;
-    font-family: 'Josefin Sans', sans-serif;
     padding-bottom: 15px;
 }
 
 .pproduct-middle-left-top-para{
     font-weight:500;
     letter-spacing: 1px;
-   font-size: 12px;
+   font-size: 14px;
    color:#8a8889;
-   font-family: 'Open Sans', sans-serif;
    line-height: 20px;
-   padding-bottom: 10px;
+   padding-bottom: 20px;
 }
 .pproduct-middle-left-top-button a{
    font-size: 10px;
@@ -84,7 +83,8 @@
     background-position: 50% 50%;
 }
  .pproduct-middle-right{
-    height: inherit;
+    min-height: inherit;
+    height: 100%;
     width: 50%;
     background: url(../images/about/abouta.jpg);
     background-size: cover;
@@ -93,7 +93,7 @@
     border: 1px solid white;
 }
 
-@media screen and (min-width:1000px) and (max-width:1299px){
+/* @media screen and (min-width:1000px) and (max-width:1299px){
     .pproduct-middle{
         width: 90%;
         min-height: 65vh;
@@ -131,7 +131,7 @@
        width: 50%;
        border: 1px solid white;
    }
-}
+} */
 
 @media screen and (min-width:768px) and (max-width:999px){
     .pproduct-middle{
@@ -176,25 +176,29 @@
 @media screen and (max-width:767px){
     .pproduct-middle{
         width: 90%;
+        margin: 0 auto;
         min-height: 50vh;
         flex-direction: column;
     }
     .pproduct-middle-left{
         margin: 10px auto;
-        width: 95%;
+        width: 100%;
     }
     .pproduct-middle-left-top{
-        width: 95%;
+        width: 100%;
         padding-left: 0%;
     }
     .pproduct-middle-left-top-heading{
-        font-size: 15px;
+        font-size: 22px;
+        text-align: center;
         padding-bottom: 6px;
     }
     .pproduct-middle-left-top-para{
-       font-size: 7px;
-       line-height: 15px;
-       padding-bottom: 5px;
+        width: 100%;
+       font-size: 12px;
+       line-height: 20px;
+       padding-bottom: 10px;
+       text-align: justify;
    }
    .pproduct-middle-left-top-button a{
        font-size: 7px;
@@ -208,7 +212,7 @@
        margin: 10px 2px;
    }
     .pproduct-middle-right{
-       width: 95%;
+       width: 100%;
        margin: 1px auto;
        height: 40vh;
        border: 1px solid white;

@@ -4,8 +4,9 @@
 }
 
 .bo-sec1{
+    overflow: hidden;
     max-width: 1300px;
-    width:100%;
+    /* width:100%; */
     min-height: 600px;
     margin: 0px auto;
     background:linear-gradient(0deg, rgba(88,129,87,.6), rgba(88,129,87,.6)), url("../images/banner/bannerA.jpg");
@@ -94,7 +95,6 @@
     padding-top: 10px;
     text-align: center;
     color: white;
-    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     font-size: 24px;
 }
@@ -126,7 +126,7 @@
     background-color: #11542A;
 }
 
-@media screen and (min-width:900px) and (max-width:1199px){
+/* @media screen and (min-width:900px) and (max-width:1199px){
     .bo-sec1{
         max-width: 900px;
         min-height: 600px;
@@ -144,8 +144,6 @@
         justify-content: center;
         align-items: center;
         color: white;
-        font-family: 'Josefin Sans', sans-serif;
-        /* background-color: wheat; */
     }
     .bo-sec1-left-inner{
         padding-left: 15px;
@@ -168,15 +166,12 @@
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        
-        /* background-color: red; */
     }
     .bo-sec1-right-inner{
         display: flex;
         justify-content: center;
         align-items: center;
         transform: rotate(45deg) translate(28%) translateY(-25%);
-        /* transform: translateX(10%); */
         object-fit: contain;
         
     }
@@ -219,7 +214,6 @@
         padding-top: 10px;
         text-align: center;
         color: white;
-        font-family: 'Montserrat', sans-serif;
         letter-spacing: 2px;
         font-size: 24px;
     }
@@ -355,14 +349,12 @@
     .bo-sec2-right-h1{
         font-size: 35px;
         letter-spacing: 1.5px;
-        font-family: 'Josefin Sans',sans-serif;
         color: whitesmoke;
     }
     
     .bo-sec2-right-h2{
         font-size: 40px;
         letter-spacing: 1px;
-        font-family: 'Monserrat',sans-serif;
         font-weight: 1000;
         color: whitesmoke;
     }
@@ -372,7 +364,6 @@
     .bo-sec2-right-button a{
         font-size: 16px;
         letter-spacing: 2px;
-        font-family: 'Roboto',sans-serif;
         font-weight: 700;
         color: whitesmoke;
         text-decoration: none;
@@ -398,7 +389,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* background:red; */
     }
     
     .bo-sec3-left-inner{
@@ -409,7 +399,6 @@
         text-align: center;
         color: #11542A;
         letter-spacing: 1px;
-        font-family: 'Monserrat',sans-serif;
         font-weight: 1000;
         padding-bottom: 10px;
     }
@@ -418,7 +407,6 @@
         text-align: center;
         color: #1F618D;
         letter-spacing: 1px;
-        font-family: 'Josefin Sans',sans-serif;
         font-weight: 800;
         padding-bottom: 10px;
     }
@@ -428,8 +416,6 @@
         color: #1F618D;
         letter-spacing: 2px;
         line-height: 20px;
-        font-family: 'Roboto',sans-serif;
-        /* font-weight: 800; */
         padding-bottom: 25px;
     }
     .bo-sec3-left-button{
@@ -448,7 +434,6 @@
     .bo-sec3-left-button a{
         text-decoration: none;
         color: whitesmoke;
-        font-family: 'Roboto',sans-serif;
         letter-spacing: 1px;
         font-size: 17px;
         transition: .2s ease-in-out;
@@ -543,7 +528,6 @@
         justify-content: center;
         align-items: left;
         flex-direction: column;
-        /* background-color: #E5E7E9; */
     }
     .bo-sec4-right-inner{
         transform: translateX(7%);
@@ -552,13 +536,11 @@
         font-size: 20px;
         font-weight: 700;
         letter-spacing: 1px;
-        font-family: 'Josefin Sans',sans-serif;
         color: #1F618D;
     }
     .bo-sec4-right-h2{
         font-size: 40px;
         letter-spacing: 1px;
-        font-family: 'Monserrat',sans-serif;
         font-weight: 1000;
         color:#11542A;
         padding-bottom: 10px;
@@ -568,7 +550,6 @@
         padding-bottom: 8px;
         color: #1F618D;
         letter-spacing: 2px;
-        font-family: 'Roboto',sans-serif;
     }
     
     .bo-spec-right{
@@ -578,7 +559,6 @@
     .bo-spec-right-heading{
         font-size: 20px;
         color: #1F618D;
-        font-family: 'Josefin Sans', sans-serif;
         font-weight: 900;
         padding-bottom: 5px;
         text-align: left;
@@ -620,7 +600,6 @@
         font-size: 10px;
         font-weight: 700;
         color: #11542A;
-        font-family: 'Josefin Sans', sans-serif;
         padding-bottom: 5px;
     }
     
@@ -640,7 +619,6 @@
     
     .bo-sec5-h{
         font-size: 50px;
-        font-family: 'Montserrat', sans-serif;
         color: whitesmoke;
         padding: 0px 0px 30px 0px;
         letter-spacing: 1px;
@@ -685,14 +663,12 @@
     
     .bo-sec5-main-left-box-text h3{
         color: #d3f6f6;
-        font-family: 'Montserrat', sans-serif;
         margin: 1px 0;
         font-size: 20px;
     }
     
     .bo-sec5-main-left-box-text p{
         color: whitesmoke;
-        font-family: 'Josefin Sans', sans-serif;
         letter-spacing:1px;
         font-weight:700;
         margin: 1px 0;
@@ -715,7 +691,6 @@
     .bo-sec5-main-right-inner h2{
         font-size: 30px;
         color: #00387a;
-        font-family: 'Montserrat', sans-serif;
     }
     .bo-sec5-main-right-inner .bo-sec5-main-right-input{
         position: relative;
@@ -725,7 +700,6 @@
     }
     
     .bo-sec5-main-right-inner .bo-sec5-main-right-input input,textarea{
-        font-family: 'Josefin Sans', sans-serif;
         letter-spacing:1px;
         font-weight:700;
         background: whitesmoke;
@@ -744,14 +718,12 @@
         height: 100px;
         font-size: 15px;
         padding-top: 15px;
-        font-family: 'Josefin Sans', sans-serif;
         letter-spacing:1px;
         font-weight:700;
         color: #1e266d;
     }
     
     .bo-sec5-main-right-inner .bo-sec5-main-right-input span{
-        font-family: 'Josefin Sans', sans-serif;
         letter-spacing:1px;
         font-weight:700;
         position: absolute;
@@ -791,12 +763,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-family: 'Josefin Sans', sans-serif;
         font-size: 12px;
         color: #11542A;
         font-weight: 700;
     }
-}
+} */
 
 @media screen and (min-width:768px) and (max-width:899px){
     .bo-sec1{
@@ -816,7 +787,6 @@
         justify-content: center;
         align-items: center;
         color: white;
-        font-family: 'Josefin Sans', sans-serif;
         /* background-color: wheat; */
     }
     .bo-sec1-left-inner{
@@ -891,7 +861,6 @@
         padding-top: 10px;
         text-align: center;
         color: white;
-        font-family: 'Montserrat', sans-serif;
         letter-spacing: 2px;
         font-size: 24px;
     }
@@ -925,6 +894,10 @@
 }
 
 @media screen and (max-width:767px){
+    .logo{
+        width: 150px;
+        height: auto;
+    }
     .bo-sec1{
         max-width: 95%;
         min-height: 400px;
@@ -943,7 +916,7 @@
         justify-content: center;
         align-items: center;
         color: white;
-        font-family: 'Josefin Sans', sans-serif;
+        transform: translateY(25%);
         /* background-color: wheat; */
     }
     .bo-sec1-left-p{
@@ -958,6 +931,8 @@
     }
     
     .bo-sec1-right{
+        overflow: hidden;
+        transform: translateX(5%);
         width: 100%;
         min-height: 200px !important;
         display: flex;
@@ -1015,7 +990,6 @@
         padding-top: 10px;
         text-align: center;
         color: white;
-        font-family: 'Montserrat', sans-serif;
         letter-spacing: 2px;
         font-size: 18px;
     }
