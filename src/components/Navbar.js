@@ -1,31 +1,47 @@
-import React from 'react'
-import styles from "./navbar.module.css";
+import React from "react";
+import "./navbar.css";
+import Brand from "../images/logo.png";
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
+import {GiHamburgerMenu} from "react-icons/gi"
 
 const Navbar = () => {
+  const [showNavbar, setShowNavbar] = useState(false);
+
+  const handleShowNavbar = () => {
+    setShowNavbar(!showNavbar);
+  };
   return (
-    <nav>
-       <div>
-        <h1>SHWIFTY</h1>
-       </div>
-
-       <div>
-            <ul className={styles.navbar}>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">About Us</a></li>
-                <li><a href="index.html">Services</a></li>
-                <li><a href="index.html">Contact</a></li>
-
-            </ul>
-       </div>
-       <div className={styles.mobile}>
-          <i className="GiHamburgerMenu"></i>
-          <i className="AiOutlineClose"></i>
-
-       </div>
-
-
+    <nav className="navbar">
+      <div className="container">
+        <div>
+          <img className="navbar-logo" src={Brand} alt="" />
+        </div>
+        <div className="menu-icon" onClick={handleShowNavbar}>
+          <GiHamburgerMenu/>
+        </div>
+        <div className={`nav-elements  ${showNavbar && "active"}`}>
+          <ul>
+            <li>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/bio-cng">Bio-CNG</NavLink>
+            </li>
+            <li>
+              <NavLink to="/solid-fertiliser">Solid Fertiliser</NavLink>
+            </li>
+            <li>
+              <NavLink to="/liquid-fertiliser">Liquid Fertiliser</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Contact</NavLink>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

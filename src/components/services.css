@@ -1,3 +1,10 @@
+.service-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .dom-sec6{
  max-width: 1300px;
  margin: 30px auto;
@@ -32,6 +39,7 @@
     padding: 5px 0;
     line-height: 18px;
     letter-spacing: 2px;
+    text-align: justify;
 }
 .dom-sec6-box1-right{
     background: url(../images/services/servicesa.jpg);
@@ -79,6 +87,7 @@
     padding: 5px 0;
     line-height: 18px;
     letter-spacing: 2px;
+    text-align: justify;
 }
 
 .dom-sec6-box3{
@@ -111,6 +120,7 @@
     padding: 5px 0;
     line-height: 18px;
     letter-spacing: 2px;
+    text-align: justify;
 }
 .dom-sec6-box3-right{
     background: url(../images/services/servicesc.jpg);

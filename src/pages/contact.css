@@ -1,0 +1,121 @@
+.contact {
+  width: 100%;
+  max-width: 1300px;
+  margin: 50px auto 30px;
+  background-color: #588157;
+  background-image: linear-gradient(
+      45deg,
+      rgba(88, 129, 87, 0.75),
+      rgba(88, 129, 87, 0.75)
+    ),
+    url("../images/about/abouta.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #dad7cd;
+}
+
+.contact-container {
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    width: 95%;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 95%;
+    flex-direction: column;
+  }
+}
+
+.contact-left {
+  flex-basis: 50%;
+
+  @media screen and (max-width: 767px) {
+    flex-basis: 100%;
+  }
+}
+
+.contact-box {
+  display: flex;
+  margin-bottom: 23px;
+}
+
+.contact-icon {
+  font-size: 24px;
+  transform: translateY(2%);
+}
+
+.contact-text {
+  font-size: 26px;
+  margin-left: 8px;
+  font-weight: 600;
+  line-height: 32px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.contact-right {
+  flex-basis: 50%;
+
+  @media screen and (max-width: 767px) {
+    flex-basis: 100%;
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-lable {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.contact-input {
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+  padding-left: 10px;
+
+  @media screen and (max-width: 767px) {
+    width: 330px;
+  }
+}
+
+.contact-message {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+  padding-left: 10px;
+
+  @media screen and (max-width: 767px) {
+    width: 330px;
+  }
+}
+
+.contact-button {
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  color: #588157;
+  cursor: pointer;
+}
