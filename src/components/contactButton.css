@@ -1,0 +1,39 @@
+/* styles.css */
+.button-container {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+.main-button {
+  font-family: 'Montserrat', sans-serif !important;
+  padding: 10px 20px;
+  background-color: #588157;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-options {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.option-button {
+  padding: 5px;
+  color: #588157;
+  text-decoration: none;
+}
+
+.option-button:hover {
+  background-color: #588157;
+  color: #fff;
+}
